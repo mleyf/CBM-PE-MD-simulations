@@ -1,0 +1,49 @@
+; Integrator
+integrator	=	md
+dt	=	0.001
+nsteps	=	TIME
+constraints	=	CONSTRAINTS
+
+; Output Control
+nstxout	=	0
+nstvout	=	0
+nstxtcout	=	5000
+nstlog	=	0
+nstcalcenergy	=	0
+nstenergy	=	100
+
+; Some specific settings
+pbc	=	xyz
+periodic_molecules	=	no
+comm_mode	=	Linear
+
+; Neighboring searching and cutoffs
+cutoff-scheme	=	Verlet
+nstlist	=	10
+ns-type	=	grid
+rlist	=	RCUT
+fourierspacing	=	0.12
+
+; Coulombic
+coulombtype	=	Cut-off
+coulomb-modifier	=	potential-shift-verlet
+rcoulomb	=	RCUT
+
+; VDW
+vdwtype	=	cut-off
+vdw-modifier	=	RSWITCH
+rvdw-switch	=	RVDWSWITCH
+rvdw	=	RCUT
+DispCorr	=	DISPCORR
+
+; Temperature Coupling
+gen-vel	=	no
+tcoupl	=	nose-hoover
+tc-grps	=	system
+tau-t	=	0.1
+nsttcouple	=	5
+ref-t	=	MYTEMP
+
+; Pressure Coupling
+pcoupl	=	no
+

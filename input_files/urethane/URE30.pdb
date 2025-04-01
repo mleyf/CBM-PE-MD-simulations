@@ -1,0 +1,98 @@
+HEADER    UNCLASSIFIED                            19-Mar-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1  C38 ZVKD    0      16.649   5.572  -1.479  1.00  0.00           C
+HETATM    2  C37 ZVKD    0      16.609   4.649  -0.289  1.00  0.00           C
+HETATM    3  C36 ZVKD    0      15.918   3.343  -0.620  1.00  0.00           C
+HETATM    4  C35 ZVKD    0      15.866   2.426   0.583  1.00  0.00           C
+HETATM    5  C34 ZVKD    0      15.180   1.118   0.251  1.00  0.00           C
+HETATM    6  C33 ZVKD    0      15.077   0.230   1.473  1.00  0.00           C
+HETATM    7  C32 ZVKD    0      14.510  -1.138   1.161  1.00  0.00           C
+HETATM    8  C31 ZVKD    0      13.059  -1.131   0.727  1.00  0.00           C
+HETATM    9  C30 ZVKD    0      12.122  -0.654   1.816  1.00  0.00           C
+HETATM   10  C29 ZVKD    0      10.665  -0.883   1.468  1.00  0.00           C
+HETATM   11  C28 ZVKD    0      10.219  -0.055   0.281  1.00  0.00           C
+HETATM   12  C27 ZVKD    0       8.718  -0.088   0.080  1.00  0.00           C
+HETATM   13  C26 ZVKD    0       8.226  -1.434  -0.407  1.00  0.00           C
+HETATM   14  C25 ZVKD    0       6.735  -1.402  -0.662  1.00  0.00           C
+HETATM   15  C24 ZVKD    0       6.238  -2.759  -1.122  1.00  0.00           C
+HETATM   16   O4 ZVKD    0       4.869  -2.679  -1.541  1.00  0.00           O
+HETATM   17  C23 ZVKD    0       3.918  -2.679  -0.538  1.00  0.00           C
+HETATM   18   O3 ZVKD    0       4.285  -2.753   0.647  1.00  0.00           O
+HETATM   19   N2 ZVKD    0       2.630  -2.643  -1.031  1.00  0.00           N
+HETATM   20  H45 ZVKD    0       2.515  -2.458  -2.000  1.00  0.00           H
+HETATM   21  C22 ZVKD    0       1.521  -2.389  -0.152  1.00  0.00           C
+HETATM   22  C21 ZVKD    0       1.129  -0.916  -0.020  1.00  0.00           C
+HETATM   23  C20 ZVKD    0      -0.080  -0.744   0.874  1.00  0.00           C
+HETATM   24  C19 ZVKD    0      -1.399  -1.078   0.208  1.00  0.00           C
+HETATM   25  C18 ZVKD    0      -1.783  -0.075  -0.858  1.00  0.00           C
+HETATM   26  C17 ZVKD    0      -3.183  -0.323  -1.418  1.00  0.00           C
+HETATM   27   N1 ZVKD    0      -4.249   0.006  -0.509  1.00  0.00           N
+HETATM   28  H32 ZVKD    0      -4.112   0.723   0.162  1.00  0.00           H
+HETATM   29  C16 ZVKD    0      -5.385  -0.762  -0.444  1.00  0.00           C
+HETATM   30   O2 ZVKD    0      -5.691  -1.736  -1.153  1.00  0.00           O
+HETATM   31   O1 ZVKD    0      -6.243  -0.343   0.555  1.00  0.00           O
+HETATM   32  C15 ZVKD    0      -7.559  -0.915   0.568  1.00  0.00           C
+HETATM   33  C14 ZVKD    0      -8.538   0.001  -0.145  1.00  0.00           C
+HETATM   34  C13 ZVKD    0      -8.576  -0.262  -1.635  1.00  0.00           C
+HETATM   35  C12 ZVKD    0      -9.381   0.776  -2.386  1.00  0.00           C
+HETATM   36  C11 ZVKD    0     -10.873   0.548  -2.261  1.00  0.00           C
+HETATM   37  C10 ZVKD    0     -11.656   1.672  -2.904  1.00  0.00           C
+HETATM   38   C9 ZVKD    0     -13.141   1.389  -2.985  1.00  0.00           C
+HETATM   39   C8 ZVKD    0     -13.801   1.121  -1.650  1.00  0.00           C
+HETATM   40   C7 ZVKD    0     -13.706   2.295  -0.700  1.00  0.00           C
+HETATM   41   C6 ZVKD    0     -14.484   2.077   0.580  1.00  0.00           C
+HETATM   42   C5 ZVKD    0     -13.974   0.937   1.435  1.00  0.00           C
+HETATM   43   C4 ZVKD    0     -12.539   1.126   1.881  1.00  0.00           C
+HETATM   44   C3 ZVKD    0     -12.130   0.120   2.940  1.00  0.00           C
+HETATM   45   C2 ZVKD    0     -12.101   0.697   4.340  1.00  0.00           C
+HETATM   46   C1 ZVKD    0     -13.471   1.060   4.853  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   19
+CONECT   21   19   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28   29
+CONECT   28   27
+CONECT   29   27   30   31
+CONECT   30   29
+CONECT   31   29   32
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35
+CONECT   35   34   36
+CONECT   36   35   37
+CONECT   37   36   38
+CONECT   38   37   39
+CONECT   39   38   40
+CONECT   40   39   41
+CONECT   41   40   42
+CONECT   42   41   43
+CONECT   43   42   44
+CONECT   44   43   45
+CONECT   45   44   46
+CONECT   46   45
+END
+

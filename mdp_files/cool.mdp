@@ -1,0 +1,67 @@
+; Integrator
+integrator	=	md
+dt	=	0.001
+nsteps	=	TIME000000
+constraints	=	all-bonds
+
+; Output Control
+nstxout	=	0
+nstvout	=	0
+nstxtcout	=	10000
+nstlog	=	0
+nstcalcenergy	=	0
+nstenergy	=	10000
+
+; Some specific settings
+pbc	=	xyz
+periodic_molecules	=	no
+comm_mode	=	Linear
+
+; Neighboring searching and cutoffs
+cutoff-scheme	=	Verlet
+nstlist	=	10
+ns-type	=	grid
+rlist	=	1.4
+fourierspacing	=	0.12
+
+; Coulombic
+coulombtype	=	PME
+coulomb-modifier	=	potential-shift-verlet
+rcoulomb	=	1.4
+
+; VDW
+vdwtype	=	cut-off
+vdw-modifier	=	potential-shift-verlet
+rvdw-switch	=	1.4
+rvdw	=	1.4
+DispCorr	=	EnerPres
+
+; Temperature Coupling
+;tcoupl	=	nose-hoover
+tcoupl	=	V-rescale
+tc-grps	=	system
+tau-t	=	0.1
+nsttcouple	=	5
+ref-t	=	MYTEMP
+
+; Pressure Coupling
+pcoupl	=	Parrinello-Rahman
+pcoupltype	=	isotropic
+ref-p	=	MYPRESS
+nstpcouple	=	-1
+tau-p	=	0.5
+refcoord_scaling = all
+compressibility	=	4.5e-5
+
+; Generate velocites in the beginning
+gen_vel                  = no               ; generate velocities anew 
+
+; Ensure smooth continuation
+continuation = yes
+
+; Cool down the system
+annealing = single
+annealing-npoints = 3
+annealing-time = 0 2000 TIME000    ; cooling rate
+annealing-temp = MYTEMP MYTEMP 150
+
